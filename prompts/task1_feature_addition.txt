@@ -1,0 +1,1 @@
+Add a pause menu to this game. Pressing Escape should pause movement, show a centered overlay with Resume and Restart buttons, and dim the background. Keep changes minimal and preserve current structure.

@@ -1,0 +1,1 @@
+Good start, but keep the existing layout and only patch the current implementation. Do not rewrite the UI. Also make restart preserve the initial camera position.

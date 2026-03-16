@@ -1,0 +1,1 @@
+Find and fix the issues causing the camera follow jitter, stale speed display, and stuck controls after tab switching. Explain briefly what was wrong.

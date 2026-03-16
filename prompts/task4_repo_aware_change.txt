@@ -1,0 +1,1 @@
+Add a settings section to the README documenting controls, and make sure the in-game overlay matches that documentation.
