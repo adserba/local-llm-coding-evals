@@ -1,0 +1,18 @@
+{
+  "model_name": "",
+  "date_tested": "",
+  "provider": "",
+  "context": "",
+  "scores": {
+    "task1_feature_addition": null,
+    "task2_bug_fix": null,
+    "task3_refactor": null,
+    "task4_repo_aware_change": null,
+    "task5_follow_up_correction": null,
+    "total": null
+  },
+  "strengths": [],
+  "weaknesses": [],
+  "verdict": "",
+  "notes": ""
+}

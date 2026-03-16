@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  overflow: hidden;
+}
+
+#game {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #5aa9ff 0%, #87c7ff 60%, #a7d6ff 100%);
+}
+
+#sky {
+  position: absolute;
+  inset: 0;
+}
+
+#ground {
+  position: absolute;
+  left: -20%;
+  width: 140%;
+  height: 38%;
+  bottom: -8%;
+  background: #2c8a3f;
+  transform: perspective(500px) rotateX(70deg);
+  transform-origin: bottom center;
+}
+
+#plane {
+  position: absolute;
+  width: 70px;
+  height: 22px;
+  left: 50%;
+  top: 42%;
+  margin-left: -35px;
+  margin-top: -11px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  transform-origin: center center;
+  box-shadow: 0 0 18px rgba(0,0,0,0.25);
+}
+
+#plane::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 8px;
+  left: -10px;
+  top: 7px;
+  background: #bdbdbd;
+  border-radius: 4px;
+}
+
+#plane::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 24px;
+  right: 6px;
+  top: -10px;
+  background: #c9c9c9;
+  clip-path: polygon(0 100%, 100% 100%, 60% 0);
+}
+
+#hud {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 10;
+  background: rgba(0,0,0,0.28);
+  padding: 12px 14px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+#hint {
+  opacity: 0.9;
+  font-size: 14px;
+}
