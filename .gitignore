@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# temporary benchmark files
+results/*.tmp
+
+# editor
+.vscode/
+.idea/
+
+# local testing artifacts
+*.log
+*.json.tmp
